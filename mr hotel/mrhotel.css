@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid green; */
+}
+.followus{
+    height: 70px;
+    width: 100%;
+    background-color: orange; 
+}
+@font-face{
+    src: url(cute_little_sheep/Cute\ Little\ Sheep.ttf);
+    font-family: Cute Little Sheep;
+}
+.followus h1{
+    float:left;
+    color:white;
+    font-size: 20px;
+    line-height: 2;
+}
+.followus ul{
+    font-size: 20px;
+}
+.followus ul li{
+    list-style: none;
+}
+.followus ul li i{
+    float:left;
+    list-style: none;
+    margin-left:30px;
+    line-height: 3;
+    color:white;
+    font-size: 15px;
+}
+.followus ul li h6{
+    float:right;
+    line-height: 3;
+    color:white;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.followus ul li h6 i{
+    line-height: 2.5;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.header {
+    /* border:1px red solid; */
+    height:70px;
+    width:100%;
+}
+.header h2{
+    float: left;
+    line-height: 2;
+    font-size: 30px;
+    margin-left: 20px;
+
+
+}
+.header ul{
+    float:right;
+}
+.header ul li{
+    list-style: none;
+    float:right;
+    font-size: 18px;
+    margin-right: 30px;
+    line-height: 3;
+}
+.MRHOTELS{
+    /* width:100%; */
+    height:600px;
+    /* border:1px solid red; */
+    background: url(banner.jpg);
+    background-size: 100% 100%;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+}
+.MRHOTELS .welcome{
+    top:50%;
+    left: 50%;
+    transform: translate(75%,90%);
+    /* border:2px red solid; */
+    height:250px;
+    width: 40%;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    
+}
+.MRHOTELS .welcome h6{
+    font-size: 15px;
+    margin-top:10px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 25px;
+    color:white;
+}
+.MRHOTELS .welcome h1{
+    margin-top:20px;
+}
+.MRHOTELS .welcome h3{
+    letter-spacing: 4px;
+    /* color:white; */
+    
+
+}
+.services{
+    height:500px;
+    width:100%;
+    /* border:1px red solid; */
+
+}
+.services .travel{
+    height:170px;
+    width:25%;
+    /* border:1px red solid; */
+    float:left;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.services .travel .D{
+    float:left;
+    /* border:1px red solid; */
+    /* line-height: 4; */
+    /* margin-top: 20px; */
+
+}
+.services .travel .box img{
+    font-size: 50px;   
+    /* line-height: 2; */
+}
+.services .travel .arra{
+    float: right;
+    color:black;
+    margin-left: 2px;
+    line-height: 25px;
+    /* border:1px red solid; */
+    height:100px;
+    width:80%;
+    margin-bottom: 20px;
+
+}
+.services .travel .arra h3{
+    color:orange;
+    font-size:30px;
+    /* margin-left: 20px; */
+    /* margin-bottom: 90px; */
+    font-family: Cute Little Sheep;
+    
+}
+.leave{
+    height:400px;
+    width:99.7%;
+    /* border:1px red solid; */
+    background-color: rgb(40, 34, 65);
+}
+.leave .box4{
+    height:200px;
+    width:50%;
+    /* border:1px solid white; */
+    top:50%;
+    left: 50%;
+    transform: translate(50%,55%);
+    color:white;
+}
+.leave h1{
+    color:white;
+}
+.leave .box4 h5{
+    color:orange;
+    margin-top: 10px;
+}
+.leave .box4 h4{
+    margin-top: 20px;
+    line-height: 1.5;   
+}
+.leave .box4 button{
+    height:50px;
+    width:140px;
+    background-color: orange;
+    color:white;
+    margin-top: 20px;
+    border: none;
+}
+
+h1{
+    color:orange;
+}
+h2{
+    color:blue;
+   font-size:100px;
+}
+span{
+    color:black;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.branches{
+    /* border:1px red solid; */
+    height:400px;
+    width:99.8%;
+}
+.branches .branch1{
+    /* border:1px green solid; */
+    height:385px;
+    width:24%;
+    float:left;
+    margin-left: 10px;
+    background: url(b6.jpg);
+    background-size: 100% 100%;
+}
+.branches .branch2{
+    /* border:1px blue solid; */
+    height:400px;
+    width:24%;
+    float:left;
+    margin-left: 10px;
+}
+.branches .branch2 .b1{
+    height:47%;
+    widows: 100%;
+    /* border:3px black solid; */
+    background: url(b1.jpg);
+    background-size: 100% 100%;
+}
+.branches .branch2 .b2{
+    height:47%;
+    widows: 100%;
+    /* border:3px black solid; */
+    margin-top: 10px;
+    background: url(b2.jpg);
+    background-size: 100% 100%;
+}
+.branches .branch3{
+    /* border:1px black solid; */
+    height:400px;
+    width:24%;
+    float:left;
+    margin-left: 10px;
+}
+.branches .branch3 .b3{
+    height:47%;
+    widows: 100%;
+    /* border:3px black solid; */
+    background: url(b3.jpg);
+    background-size: 100% 100%;
+}
+.branches .branch3 .b4{
+    height:47%;
+    widows: 100%;
+    /* border:3px black solid; */
+    margin-top: 10px;
+    background: url(b4.jpg);
+    background-size: 100% 100%;
+}
+.branches .branch4{
+    /* border:1px blue solid; */
+    height:385px;
+    width:24%;
+    float:left;
+    margin-left: 10px;
+    background: url(b5.jpg);
+    background-size: 100% 100%;
+}
+.lorem{
+    height:400px;
+    width:99.9%;
+    /* border:1px solid red; */
+    background: url(bann.jpg);
+    background-size: 100% 100%;
+    color:white;
+
+}
+.lorem h1{
+    color:white;
+    margin-top:60px;
+    font-size: 50px;
+
+}
+
+h6{
+    color:grey;
+    font-size: 40px;
+}
+.lorem .box1{
+    height:200px;
+    width:10%;
+    float:left;
+    margin-top:90px;
+    /* border: 2px solid red; */
+    margin-left:150px;
+    
+}
+.lorem .box1 h1{
+    margin-top: 10px;
+    font-size:40px;
+}
+.lorem .box1 h5{
+    /* margin-bottom:10px; */
+    line-height: 4;
+}
+.lorem .box2{
+    height:200px;
+    width:10%;
+    float:left;
+    margin-top:90px;
+    /* border: 2px solid red; */
+    margin-left:150px;
+    
+}
+.lorem .box2 h1{
+    margin-top: 10px;
+    font-size:40px;
+}
+.lorem .box2 h5{
+    /* margin-bottom:10px; */
+    line-height: 4;
+}
+.lorem .box3{
+    height:200px;
+    width:10%;
+    float:left;
+    margin-top:90px;
+    /* border: 2px solid red; */
+    margin-left:150px;
+    
+}
+.lorem .box3 h1{
+    margin-top: 10px;
+    font-size:40px;
+}
+.lorem .box3 h5{
+    /* margin-bottom:10px; */
+    line-height: 4;
+}
+
+.lorem .box4{
+    height:200px;
+    width:10%;
+    float:left;
+    margin-top:90px;
+    /* border: 2px solid red; */
+    margin-left:150px;
+    
+}
+.lorem .box4 h1{
+    margin-top: 10px;
+    font-size:40px;
+}
+.lorem .box4 h5{
+    /* margin-bottom:10px; */
+    line-height: 4;
+}
+
+.news{
+    height:200px;
+    width:99.8%;
+    /* border:1px red solid; */
+}
+.news .pd1{
+    height:200px;
+    width:28%;
+    /* border:1px black solid; */
+    float:left;
+    margin-left: 60px;
+    background: url(b7.jpg);
+    background-size: 100% 100%;
+
+}
+.news .pd2{
+    height:200px;
+    width:28%;
+    /* border:1px black solid; */
+    float:left;
+    margin-left: 40px;
+    background: url(b8.jpg);
+    background-size: 100% 100%;
+
+}
+.news .pd3{
+    height:200px;
+    width:28%;
+    /* border:1px black solid; */
+    float:left;
+    margin-left: 40px;
+    background: url(b9.jpg);
+    background-size: 100% 100%;
+}
+.footer{
+    background-color: orange;
+    height:60px;
+    width:99.9%;
+}
+
+.footer center{
+    color:white;
+    line-height: 2;
+}
+.link{
+    height:350px;
+    width: 99.8%;
+    /* border:1px solid red; */
+    background-color: rgb(40, 36, 70);
+
+}
+.link .boxA{
+    /* border:2px black solid; */
+    height:200px;
+    width:23%;
+    float:left;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.link .boxA h1{
+    font-size: 35px;
+}
+.link .boxA h6{
+    font-size: smaller;
+    color:white;
+    letter-spacing: 3px;
+}
+.link .boxA h4{
+    line-height: 20px;
+    margin-top: 20px;
+    color:white;
+}
+.link .boxA h3{
+    color:orange;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.link .boxB{
+    /* border:2px black solid; */
+    height:240px;
+    width:23%;
+    float:left;
+    margin-top: 70px;
+}
+.link .boxB h1{
+    font-size: 35px;
+}
+.link .boxB h4{
+    color:white;
+    line-height: 2;
+    margin-top: 25px;
+}
+.link .boxC{
+    /* border:2px black solid; */
+    height:240px;
+    width:23%;
+    float:left;
+    margin-top: 70px;
+}
+.link .boxA h1{
+    font-size: 35px;
+}
+.link .boxC input{
+    height:39px;
+    width:60%;
+    background-color:white;
+    color:black;
+    border:none;
+    margin-top: 35px;
+}
+.link .boxC button{
+    height:39px;
+    width:30%;
+    background-color: orange;
+    margin-left: 10px;
+    color:white;
+    text-align: center;
+    border:none;
+}
+.link .boxC i{
+    color :white;
+    font-size:25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.link .boxD{
+    /* border:2px black solid; */
+    height:240px;
+    width:19%;
+    float:left;
+    margin-top: 70px;
+}
+.link .boxD h1{
+    font-size: 35px;
+}
+.link .boxD h3{
+    color:white;
+    margin-top: 30px;
+    line-height: 30px;
+}
